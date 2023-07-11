@@ -5,7 +5,8 @@ class CreateBoards < ActiveRecord::Migration[6.0]
       t.string :email
       t.integer :mines
       t.integer :height
-      t.inteegr :width
+      t.integer :width
+      t.text :data
 
       t.timestamps
     end
