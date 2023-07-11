@@ -68,3 +68,11 @@
 .close-button:hover {
   color: #666666;
 }
+
+.nav-item{
+  margin-right: 10px !important;
+}
+
+.search-btn{
+  margin-top: 10px !important;
+}
