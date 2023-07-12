@@ -1,6 +1,6 @@
 # README
 
-## Ticket Management System
+## Minesweeper Board Generation
 
 This is a Minesweeper game board. It create's a new board by specifying the width, height, and number of mines. The board will then be generated randomly. 
 
@@ -26,7 +26,7 @@ The project also includes a number of test cases that test the functionality of 
 
 * Ruby version 2.7.3
 * Rails version 6.0.6
-* SQLlite database (Mostly I use Postgres but here I used SQLlite for easiness as it's a default one but we use ActiveRecord for queries that means we can shift to Postgres anytime we want to)
+* Postgres database 
 
 ## Installation
 
@@ -38,6 +38,8 @@ The project also includes a number of test cases that test the functionality of 
 
 * Install the required dependencies:
 `bundle install`
+`install nodejs 18.16.0`
+`yarn install`
 
 * Set up the database:
 `rails db:create
